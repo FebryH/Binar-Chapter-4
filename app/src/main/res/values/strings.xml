@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tugas Android Engineer Chapter 4</string>
+    <string name="search_songs_albums_artists">Search songs,albums, artists</string>
 </resources>
