@@ -72,21 +72,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="12dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:src="@mipmap/Gambar_2_foreground"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="12dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:src="@mipmap/Gambar_1_foreground"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="12dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:src="@mipmap/Gambar_3_foreground"/>
 
     </LinearLayout>
 
@@ -350,8 +350,51 @@
 
     </LinearLayout>
 
-    <VideoView
-        android:id="@+id/videoView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:backgroundTint="#1D1D1D"/>
+        android:layout_height="123dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#1D1D1D"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:src="@mipmap/Gambar_4_foreground" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="12dp"
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_history_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Inolvidable"
+            android:textColor="#B0B0B0"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_history_24" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_north_west_24" />
