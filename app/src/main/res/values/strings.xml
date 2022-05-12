@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tugas Android Engineer Chapter 4</string>
     <string name="search_songs_albums_artists">Search songs,albums, artists</string>
+    <string name="last_played_from_search">Last played from Search</string>
 </resources>

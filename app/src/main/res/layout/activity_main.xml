@@ -27,8 +27,9 @@
             android:layout_height="30dp"
             android:layout_weight="1"
             android:background="@drawable/bg_rounded"
-            android:padding="5dp"
+            android:padding="3dp"
             android:text="@string/search_songs_albums_artists"
+
             android:textColor="#929292"
             android:textStyle="bold" />
 
@@ -36,10 +37,54 @@
             android:layout_width="30dp"
             android:layout_height="20dp"
             android:src="@drawable/ic_baseline_mic_24"
-            android:layout_gravity="center"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/last_played_from_search"
+            android:textSize="12dp"
+            android:textColor="#929292"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+    </LinearLayout>
