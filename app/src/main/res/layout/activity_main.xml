@@ -16,26 +16,30 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="30dp"
             android:layout_height="20dp"
             android:src="@drawable/ic_baseline_arrow_back_24"
             android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="325dp"
+            android:layout_width="330dp"
             android:layout_height="30dp"
             android:layout_weight="1"
-            android:background="#1A1A1A"
+            android:background="@drawable/bg_rounded"
             android:padding="5dp"
             android:text="@string/search_songs_albums_artists"
             android:textColor="#929292"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="30dp"
             android:layout_height="20dp"
             android:src="@drawable/ic_baseline_mic_24"
             android:layout_gravity="center"
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
